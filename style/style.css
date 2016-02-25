@@ -1,0 +1,40 @@
+body{
+    background-color: white;
+}
+
+.top-block{
+    width: 100%;
+}
+
+#header>div{
+    position: relative;
+}
+
+#titleBlock #logoBlock{
+    float: left;
+}
+
+#titleBlock #titleText{
+    float: right;
+}
+
+.clear-block{
+    clear: both;
+}
+
+.content-row{
+    width:100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #e7f9ff;
+}
+
+.row-solid{
+background-color: rgba(255, 255, 255, 0)
+}
+
+.row-tinted{
+background-color: rgba(35, 0, 70, 0.06)
+}
+
+/*vinette*/
