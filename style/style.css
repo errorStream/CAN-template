@@ -14,9 +14,26 @@ body{
     float: left;
 }
 
-#titleBlock #titleText{
-    float: right;
+#titleText{
+    float: left;
+	color: #000099;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	width: 300px;
 }
+
+#titleText .mainText{
+	font-size: 100px;
+	line-height:90%;
+	letter-spacing:-17px;
+	margin-top:20px;
+}
+
+#titleText .subText{
+	font-size: 20px;
+	line-height:90%;
+}
+
 
 .clear-block{
     clear: both;
@@ -25,8 +42,8 @@ body{
 .content-row{
     width:100%;
     padding-bottom: 20px;
-    padding-top: 20px;
     background-color: #e7f9ff;
+	padding: 30px 70px;
 }
 
 .row-solid{
@@ -35,6 +52,15 @@ background-color: rgba(255, 255, 255, 0)
 
 .row-tinted{
 background-color: rgba(35, 0, 70, 0.06)
+}
+
+#menuBlock td{
+	width:100px;
+}
+
+#menuBlock{
+	padding-left:400px;
+	padding-bottom:50px;
 }
 
 /*vinette*/

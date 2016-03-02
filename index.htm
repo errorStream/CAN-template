@@ -9,27 +9,138 @@
         <script type="text/javascript" src="Libs/jquery-1.12.0.min.js"></script>
 
         <link rel="stylesheet" type="text/css" href="style/style.css">
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
         <script type="text/javascript" src="js/main.js"></script>
 
     </head>
     <body>
+	    <canvas id="bg_l1" width="100%" height="1000px" style="position:absolute;z-index:-1000;opacity: 0.5"></canvas>
+	    <canvas id="bg_l2" width="100%" height="1000px" style="position:absolute;z-index:-999;opacity: 0.5"></canvas>
+
         <div id="header" class="top-block">
             <div id="titleBlock">
-                <div id="logoBlock"></div>
-                <div id="titleText"></div>
+                <span id="logoBlock">
+					<object data="res/logo.svg" type="image/svg+xml">
+						<img src="res/CAN_logo.svg.png" />
+					</object>
+				</span>
+                <div id="titleText">
+					<div class="mainText">
+						CAN
+					</div>
+					<div class="subText">
+						Show a child they matter
+					</div>
+				</div>
                 <div class="clear-block"></div>
             </div>
             <div id="bannerBlock"></div>
         </div>
         <div id="menuBlock" class="top-block">
+			<table>
+				<tr>
+					<td>
+						<div style="float:right">|</div><div style="clear:both"></div>
+					</td>
+					<td>
+						<div style="float:left;text-align:center;width:90%">
+							Page 1
+						</div><div style="float:right">|</div><div style="clear:both"></div>
+					</td>
+					<td>
+						<div style="float:left;text-align:center;width:90%">
+							Page 1
+						</div><div style="float:right">|</div><div style="clear:both"></div>
+					</td>
+					<td>
+						<div style="float:left;text-align:center;width:90%">
+							Page 1
+						</div><div style="float:right">|</div><div style="clear:both"></div>
+					</td>
+					<td>
+						<div style="float:left;text-align:center;width:90%">
+							Page 1
+						</div><div style="float:right">|</div><div style="clear:both"></div>
+					</td>
+					<td>
+						<div style="float:left;text-align:center;width:90%">
+							Page 1
+						</div><div style="float:right">|</div><div style="clear:both"></div>
+					</td>
+				</tr>
+			</table>
         </div>
         <div id="center" class="top-block">
+            <div class="content-row row-tinted">
+				Lorem ipsum dolor sit amet, id malis paulo interpretaris vim. Eu salutatus dissentiunt delicatissimi eum, ubique sapientem ad pri, has probo legere concludaturque at. Wisi melius regione ei his, quo ex deserunt accusata. Id suas placerat hendrerit duo, te phaedrum periculis quaerendum sea. In mei mollis legimus, ut vis paulo feugiat phaedrum.
+
+				Efficiantur consectetuer vel in, at utamur salutatus pri. Ei usu nonumy soluta interesset, eu quidam utamur per. Regione prodesset no sit, vim utinam postulant no. Mea timeam scripserit ex. Aperiam aperiri ex nam. Ad nam quod utinam salutandi.
+
+				Diceret suscipiantur quo at. Consulatu sadipscing eu eam, nam persius abhorreant eu. Ius assum assueverit voluptatibus ei, in pro albucius definiebas, sea dicant principes disputationi ut. Tale gloriatur conclusionemque ad qui. Alia quaerendum in per, congue eleifend cu sea, minimum volutpat mel at. Aliquip scaevola est te. Vero paulo reprehendunt quo an, nam ei nihil vivendo.
+
+				Saepe signiferumque his ea, vix paulo saperet pericula cu, per aliquip partiendo et. Libris legendos omittantur has ne, ferri expetendis ullamcorper pri ad. Ad per erant reformidans. Usu in doming quaerendum, in nec nominati perpetua maiestatis, cum et paulo eirmod. Id vim veniam maluisset efficiendi, id pro tempor mandamus volutpat. Ei eam erat primis pertinax, indoctum similique ne duo.
+
+				Et zril dolorem invidunt his. Per ad delectus conclusionemque, unum equidem docendi ne mel, quod ludus ut his. Consul appellantur sit et, nusquam commune assentior vel an. Atqui ludus gloriatur vim ex.
+            </div>
             <div class="content-row row-solid">
+				Lorem ipsum dolor sit amet, id malis paulo interpretaris vim. Eu salutatus dissentiunt delicatissimi eum, ubique sapientem ad pri, has probo legere concludaturque at. Wisi melius regione ei his, quo ex deserunt accusata. Id suas placerat hendrerit duo, te phaedrum periculis quaerendum sea. In mei mollis legimus, ut vis paulo feugiat phaedrum.
+
+				Efficiantur consectetuer vel in, at utamur salutatus pri. Ei usu nonumy soluta interesset, eu quidam utamur per. Regione prodesset no sit, vim utinam postulant no. Mea timeam scripserit ex. Aperiam aperiri ex nam. Ad nam quod utinam salutandi.
+
+				Diceret suscipiantur quo at. Consulatu sadipscing eu eam, nam persius abhorreant eu. Ius assum assueverit voluptatibus ei, in pro albucius definiebas, sea dicant principes disputationi ut. Tale gloriatur conclusionemque ad qui. Alia quaerendum in per, congue eleifend cu sea, minimum volutpat mel at. Aliquip scaevola est te. Vero paulo reprehendunt quo an, nam ei nihil vivendo.
+
+				Saepe signiferumque his ea, vix paulo saperet pericula cu, per aliquip partiendo et. Libris legendos omittantur has ne, ferri expetendis ullamcorper pri ad. Ad per erant reformidans. Usu in doming quaerendum, in nec nominati perpetua maiestatis, cum et paulo eirmod. Id vim veniam maluisset efficiendi, id pro tempor mandamus volutpat. Ei eam erat primis pertinax, indoctum similique ne duo.
+
+				Et zril dolorem invidunt his. Per ad delectus conclusionemque, unum equidem docendi ne mel, quod ludus ut his. Consul appellantur sit et, nusquam commune assentior vel an. Atqui ludus gloriatur vim ex.
             </div>
             <div class="content-row row-tinted">
+				Lorem ipsum dolor sit amet, id malis paulo interpretaris vim. Eu salutatus dissentiunt delicatissimi eum, ubique sapientem ad pri, has probo legere concludaturque at. Wisi melius regione ei his, quo ex deserunt accusata. Id suas placerat hendrerit duo, te phaedrum periculis quaerendum sea. In mei mollis legimus, ut vis paulo feugiat phaedrum.
+
+				Efficiantur consectetuer vel in, at utamur salutatus pri. Ei usu nonumy soluta interesset, eu quidam utamur per. Regione prodesset no sit, vim utinam postulant no. Mea timeam scripserit ex. Aperiam aperiri ex nam. Ad nam quod utinam salutandi.
+
+				Diceret suscipiantur quo at. Consulatu sadipscing eu eam, nam persius abhorreant eu. Ius assum assueverit voluptatibus ei, in pro albucius definiebas, sea dicant principes disputationi ut. Tale gloriatur conclusionemque ad qui. Alia quaerendum in per, congue eleifend cu sea, minimum volutpat mel at. Aliquip scaevola est te. Vero paulo reprehendunt quo an, nam ei nihil vivendo.
+
+				Saepe signiferumque his ea, vix paulo saperet pericula cu, per aliquip partiendo et. Libris legendos omittantur has ne, ferri expetendis ullamcorper pri ad. Ad per erant reformidans. Usu in doming quaerendum, in nec nominati perpetua maiestatis, cum et paulo eirmod. Id vim veniam maluisset efficiendi, id pro tempor mandamus volutpat. Ei eam erat primis pertinax, indoctum similique ne duo.
+
+				Et zril dolorem invidunt his. Per ad delectus conclusionemque, unum equidem docendi ne mel, quod ludus ut his. Consul appellantur sit et, nusquam commune assentior vel an. Atqui ludus gloriatur vim ex.
             </div>
         </div>
         <div id="footer" class="top-block">
         </div>
+		<script type="text/javascript">
+		  var canvasId = 'bg_l1',
+			  canvas = document.getElementById(canvasId),
+			  ctx = canvas.getContext('2d'),
+			  grd;
+
+		  // Create gradient
+		  grd = ctx.createLinearGradient(190.000, 0.000, 110.000, 300.000);
+
+		  // Add colors
+		  grd.addColorStop(0.000, 'rgba(255, 191, 210, 1.000)');
+		  grd.addColorStop(0.354, 'rgba(255, 255, 255, 0.000)');
+
+		  // Fill with gradient
+		  ctx.fillStyle = grd;
+		  ctx.fillRect(0, 0, 300.000, 300.000);
+		  canvas.width = window.innerWidth;
+
+		  canvasId = 'bg_l2',
+			  canvas = document.getElementById(canvasId),
+			  ctx = canvas.getContext('2d'),
+			  grd;
+
+		  // Create gradient
+		  grd = ctx.createLinearGradient(90.000, 0.000, 210.000, 300.000);
+
+		  // Add colors
+		  grd.addColorStop(0.000, 'rgba(255, 255, 170, 1.000)');
+		  grd.addColorStop(0.354, 'rgba(255, 255, 255, 0.000)');
+
+		  // Fill with gradient
+		  ctx.fillStyle = grd;
+		  ctx.fillRect(0, 0, 300.000, 300.000);
+		</script>
+
     </body>
 </html>
